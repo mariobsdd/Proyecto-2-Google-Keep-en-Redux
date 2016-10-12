@@ -1,0 +1,213 @@
+$backcolor: #C7EDFF;
+$element-color: #0864FF;
+$keep_orange: #FFB61C;
+
+input{
+  background: transparent;
+  border: none;
+}
+
+body{
+  background: $backcolor;
+}
+
+.head{
+  background-color: $element-color;
+  height: 20px;
+  margin: 0 auto;
+  width: 80%;
+}
+.container{
+  margin-bottom: 60px;
+  margin-top: 60px;
+  position: relative;
+  width: 100%;
+}
+
+.todo{
+  box-sizing: border-box;
+  font-size: 17px;
+  height: 30px;
+  padding: 0;
+  position: relative;
+  width: 100%;
+  input[type="text"]{
+    box-sizing: border-box;
+    font-size: 15px;
+    height: 100%;
+    padding-left: 30px;
+    padding-right: 45px;
+    width: 100%;
+  }
+  input[type="checkbox"]{
+    height: 15px;
+    left: 0;
+    margin: 10px 0 0 10px;
+    position:absolute;
+    top: 0;
+    width: 15px;
+  }
+  button{
+    background-color: black;
+    border-radius: 6px;
+    border: 2px solid red;
+    color: white;
+    font: bold 16px;
+    height: 25px;
+    margin: 2px 10px 0 10px;
+    position: absolute;
+    right: 0;
+    top: 0;
+    width: 75px;
+  }
+}
+.new-todo{
+  height: 30px;
+  padding: 0;
+  position: relative;
+  width: 100%;
+  input{
+    box-sizing: border-box;
+    font-size: 15px;
+    height: 100%;
+    padding: 0 100px 0 10px;
+    width: 100%;
+  }
+  button{
+    background: grey;
+    border-radius: 10%;
+    border: none;
+    color: white;
+    font: bold 25px;
+    height: 25px;
+    margin: 2px 10px 0 10px;
+    padding: 0;
+    position: absolute;
+    right: 0;
+    top: 0;
+    width: 25px;
+  }
+}
+
+.new-element{
+  background-color: white;
+  height: 50px;
+  position: relative;
+  width: 100%;
+}
+.new-element>input{
+    box-sizing: border-box;
+    font-size: 17px;
+    height: 100%;
+    text-align: center;
+    width: 100%;
+}
+.btn{
+    background-color: $element-color;
+    border: 2px solid $keep_orange;
+    color: #FFF;
+    height: 60px;
+    margin: 10px;
+    text-transform: uppercase;
+    width: 120px;
+}
+
+.sub-container{
+  margin: 0 auto;
+  width: 560px;
+}
+
+.note{
+  height: 100%;
+  width: 100%;
+}
+
+.logo{
+  left: 0;
+  position: absolute;
+}
+
+.icon{
+  position: absolute;
+  right: 190px;
+  top: 10px;
+}
+
+.navbar{
+  background-color: $keep_orange;
+  height: 30px;
+  margin: 0 100px;
+  z-index: 5;
+}
+.navbar>input{
+    box-sizing: border-box;
+    font-size: 25px; 
+    height: 100%;
+    text-align: center;
+    width: 100%;
+  }
+
+.title{
+  color:$element-color;
+  font-size: 50px;
+  font-weight: bold;
+  text-align: center;
+}
+
+.footer{
+  height: 30px;
+  padding-top: 5px;
+  position: relative;
+  width: 100%;
+}
+
+.general-footer{
+  background-color: $keep_orange;
+  bottom: 0;
+  font-size: 20px;
+  right: 0;
+  padding: 10px 0 0 10px;
+  position: fixed;
+  text-align: center;
+}
+
+.element{
+  border-radius: 25px;
+  box-sizing: border-box;
+  float: left;
+  margin-top: 15px;
+  margin: 25px;
+  padding: 0 20px;
+  position: relative;
+  width: 28%;
+}
+.archivate{
+  background-color: black;
+  border: 1px solid red;
+  color: #fff;
+  position: absolute;;
+  right: 0;
+  top: 0;
+}
+.colors{
+    height: 25px;
+    margin-left: 25px;
+    border: 3px solid black;
+  }
+
+.colors>.color{
+  border: 2px solid black;
+  margin: 0 5px;
+  height: 15px;
+  width: 30px;
+}
+.inline-text{
+  color: gray;
+  font-size: 10px;
+  font-style: italic;
+  text-align: right;
+}
+
+::-webkit-input-placeholder {
+   color: grey;
+}
